@@ -1,5 +1,6 @@
 .purple {
   /* TODO: Add some style definitions for the purple class in here... */
+  color: purple;
 }
 
 /* #answer-display will have black text on a white background.
@@ -10,4 +11,17 @@
 
 #answer-display:hover {
   color: #fff;
+}
+
+span {
+  text-decoration: none;
+}
+
+
+h1 {
+  font-weight: bolder;
+}
+
+body {
+  height: 90%;
 }

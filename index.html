@@ -1,11 +1,14 @@
 <html>
   <head>
+
     <!--
       Get jQuery via CDN (https://jquery.com/)
       jQuery is a js framework that gives us some easy to use
       functions for interacting with webpages and APIs
     -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- Load our files -->
     <script type="text/javascript" src="index.js"></script>
@@ -14,13 +17,30 @@
 
   <body>
     <!-- TODO: Say something interesting in the heading tag... -->
-    <h1>...</h1>
+    <div class="container-fluid">
+        <div class="card text-center" style="margin-top: 10px;">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body" style="height: 37rem;">
+          <h1 class="card-title" style="margin: 3rem">Cool Goal!</h1>
+          <p style="margin-bottom: 3rem;"> How much money are we starting with??</p>
 
-    <div class="purple">
-      <span>This text should be purple</span>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+
+            <a href="#" class="btn btn-primary position-absolute bottom-0 end-0">Next</a>
+            
+        </div>
+        <div class="card-footer text-muted">
+        
+        </div>
+      </div>
     </div>
 
-    <button>Show me some animal trivia!</button>
 
     <div id="results-area"></div>
     <div id="question-display"></div>

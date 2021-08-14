@@ -4,8 +4,22 @@
 //  */
 
 // $(...) will run the function you give it when the page is loaded & ready
-$(document).ready(function(){
-    $('#nextButton').click(nextStep)
+// $(document).ready(function(){
+//   console.log("yes");
+//     $('#nextButton').click(nextStep)
+// });
+
+$(function() {
+  // console.log will log a message or object to the browser developer console
+  console.log("page loaded...");
+
+  $("#nextButton").click(nextStep);
+  /*
+   * TODO: You will need to use a css selector to get jQuery to find the button element in the page
+   * Then you will need to make a new javascript function to do stuff for when the button
+   * is clicked and pass it into the click function above...
+   * The function should call one of the functions below, and pass the other in as the callback...
+   */
 });
   /*
    * TODO: You will need to use a css selector to get jQuery to find the button element in the page
@@ -16,7 +30,7 @@ $(document).ready(function(){
 
 function nextStep() {
   console.log("its running");
-  document.getElementByClass("response").text("Great!!");
+  $(".response").text("Great!!");
 }
 
 // function showMeAnAnimal() {

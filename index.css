@@ -28,7 +28,8 @@ span {
 
 
 h1 {
-  font-weight: bolder;
+  font-weight: 500;
+  font-size: 36px;
 }
 
 .header {
@@ -47,6 +48,7 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  color: #FFB703;
 }
 
 .background {
@@ -75,3 +77,27 @@ h1 {
 .response {
   margin-bottom: 43px;
 }
+
+p {
+  margin-bottom: 36px;
+  font-size: 22px;
+}
+
+.button {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px 16px;
+
+  position: absolute;
+  width: 94px;
+  height: 46px;
+  left: 254px;
+  top: 534px;
+
+  background: #FFB703;
+  border-radius: 40px;
+
+  line-height: 46px;
+}
+

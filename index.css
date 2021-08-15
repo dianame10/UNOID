@@ -42,6 +42,7 @@ h1 {
 
 .money {
   display: flex;
+  align-items: flex-end;
 }
 
 .dollarSign {
@@ -68,6 +69,7 @@ h1 {
   border-bottom: 2px solid black;
   border-radius: 0;
   background: transparent;
+  width: 75px;
 }
 
 .elements {
@@ -177,6 +179,18 @@ width: 600px;
   font-size: large;
 }
 
+
+.unoidDropDown {
+  background-color: white;
+  border: 1px solid #D9D9D9;
+  padding: 8px 16px;
+  color: black;
+  border-radius: 0;
+  margin-left: 8px;
+}
+
+
 .moremargin{
   margin-top: 50px;
 }
+

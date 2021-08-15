@@ -101,6 +101,7 @@ p {
   line-height: 46px;
 }
 
+<<<<<<< HEAD
 .backButton {
   color: white;
   text-decoration: none;
@@ -128,3 +129,51 @@ p {
   bottom: 0;
   width: 100%;
 }
+
+
+#bordertitle{
+  border-style: solid;
+  border-color: aqua;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#iphone11title{
+  color: blue;
+  text-align: center;
+}
+h1 {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.goal{
+width: 600px;
+}
+
+.saving{
+  display:flex
+}
+
+.dollarSign--yellow{
+  background-color: #FFB703;
+  border-radius: 50%;
+  width: 26px;
+  height:26px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+    padding-left: 8px;
+    line-height: 26px;
+    margin-right: 8px;
+}
+
+/* #contribution{
+  font-size: x-large;
+} */
+.savingcontri{
+  font-size: large;
+}
+

@@ -17,9 +17,9 @@ body{
   margin: 0;
   padding: 0;
   max-width: 375px;
-  max-height: 667px;
-  font-family: 'Montserrat', sans-serif;
 
+  font-family: 'Montserrat', sans-serif;
+  position :relative;
 }
 
 span {
@@ -101,7 +101,7 @@ p {
   line-height: 46px;
 }
 
-<<<<<<< HEAD
+
 .backButton {
   color: white;
   text-decoration: none;
@@ -177,3 +177,6 @@ width: 600px;
   font-size: large;
 }
 
+.moremargin{
+  margin-top: 50px;
+}

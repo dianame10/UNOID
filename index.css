@@ -17,9 +17,9 @@ body{
   margin: 0;
   padding: 0;
   max-width: 375px;
-  max-height: 667px;
-  font-family: 'Montserrat', sans-serif;
 
+  font-family: 'Montserrat', sans-serif;
+  position :relative;
 }
 
 span {
@@ -103,6 +103,7 @@ p {
   line-height: 46px;
 }
 
+
 .backButton {
   color: white;
   text-decoration: none;
@@ -178,6 +179,7 @@ width: 600px;
   font-size: large;
 }
 
+
 .unoidDropDown {
   background-color: white;
   border: 1px solid #D9D9D9;
@@ -185,5 +187,10 @@ width: 600px;
   color: black;
   border-radius: 0;
   margin-left: 8px;
+}
+
+
+.moremargin{
+  margin-top: 50px;
 }
 

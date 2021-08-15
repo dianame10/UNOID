@@ -39,13 +39,13 @@ h1 {
 }
 
 .money {
-  display: inline-block;
+  display: flex;
 }
 
 .dollarSign {
   font-size: 36px;
   font-weight: bold;
-  fon
+  font-family: 'Roboto', sans-serif;
 }
 
 .background {

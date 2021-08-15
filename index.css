@@ -27,5 +27,10 @@ body {
 }
 
 .header {
+  width: 100%;
+}
+
+.money {
+  align-items: center;
   width: 100px;
 }

@@ -18,6 +18,7 @@ body{
   padding: 0;
   max-width: 375px;
   max-height: 667px;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -65,5 +66,12 @@ h1 {
   border-bottom: 2px solid black;
   border-radius: 0;
   background: transparent;
+}
 
+.elements {
+  padding: 46px;
+}
+
+.response {
+  margin-bottom: 43px;
 }

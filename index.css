@@ -13,6 +13,14 @@
   color: #fff;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 375px;
+  max-height: 667px;
+
+}
+
 span {
   text-decoration: none;
 }
@@ -22,15 +30,39 @@ h1 {
   font-weight: bolder;
 }
 
-body {
-  height: 90%;
-}
-
 .header {
   width: 100%;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  top: 0;
 }
 
 .money {
-  align-items: center;
-  width: 50%;
+  display: inline-block;
+}
+
+.dollarSign {
+  font-size: 36px;
+  font-weight: bold;
+  fon
+}
+
+.background {
+  background: url('img/Group 5 1.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.numberInput {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+
 }
